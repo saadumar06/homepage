@@ -1,0 +1,469 @@
+img{
+    width: 15px ;
+    padding: 10px ;
+    cursor: pointer;
+
+}
+
+#para{
+    margin-left: 100px;
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#bt{
+    margin-top: 15px;
+    border: 1px solid green;
+    color: green;
+    font-size: small;
+    
+}
+
+
+
+.main{
+    background-color: #316DC3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    
+}
+
+#pic{
+    
+    width: 200px;
+    margin-right: 200px;
+    
+}
+
+
+
+.pic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+
+
+#li{
+    font-family: sans-serif;
+    list-style: none;
+    display: inline-block;
+    padding: 7px !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 1em;
+    
+}
+
+
+
+
+.active{
+    background-color: #316DC3 !important;
+    border-radius: 1em;
+    padding: 8px;
+    color: white;
+    
+   
+}
+
+li:hover{
+    background-color: #316DC3;
+    cursor: pointer;
+    border-radius: 1em;
+    color: white;
+    transition: 0.5s;
+}
+
+.position{
+    background-color: rgb(224, 223, 223);
+    width: 100%;
+    position: fixed !important;
+  
+    
+}
+
+a{
+    color: black;
+    
+}
+
+#blood{
+    width: 1555px;
+    height: 550px ;
+    
+    
+}
+
+@media only screen and (max-width: 1555px){
+    #blood{
+        width: 400px;
+        height: 300px;
+        margin-top: 100px;
+    }
+
+}
+
+.news{
+    
+    background-color: #316DC3;
+    color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+    
+   
+}
+
+#p{
+    font-family: sans-serif;
+    text-align: center;
+    
+    font-size: large;
+    
+}
+
+
+
+.intro{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#top{
+    position: fixed;
+    width: 70px;
+    bottom: 10px;
+    right: 30px;
+}
+
+
+
+#blue{
+    color: #316DC3;
+}
+
+#green{
+    color: green;
+}
+
+
+
+#logo{
+    
+    display: flex;
+    align-content: center;
+    width: 40px;
+    margin: 0 auto;
+}
+
+#hr{
+    margin-left: 0 auto;
+    width: 30px;
+    border-color: green;
+    
+}
+
+
+.h{
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: justify;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 30px;
+    opacity: 0.7;
+    
+    
+}
+
+.introduction{
+    background-color: rgb(247, 247, 247);
+
+}
+
+
+#help{
+    margin-top: 20px;
+    width: 40px;
+    margin-left: 85px;
+}
+
+.main3{ 
+    background-color: rgb(56, 56, 175) ;
+    
+}
+
+
+
+
+#num{
+    font-size: 50px;
+    margin-left: 85px;
+    color: white;
+    text-align: center;
+    
+}
+
+b{
+    color: green;
+    font-size: medium;
+
+    
+}
+
+td>bold{
+    color: white;
+    margin-left: 100px;
+    font-size: large;
+}
+
+table{
+    border-spacing: 0;
+   border-collapse: collapse;
+}
+
+
+tr{
+    text-align: center;
+}
+
+
+#what{
+    color: blue; 
+    font-family:'Times New Roman', Times, serif;
+}
+
+#are{
+    color: green;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+}
+
+
+#logos{
+    width: 80px;
+    margin-left: 140px;
+    
+}
+
+.box{
+    
+    width: 400px;
+    box-shadow: 5px 5px 5px 5px #cfcfcf;
+    height: 200px;
+
+}
+
+
+h2{
+   text-align: center;
+    color: rgb(73, 73, 204);
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+.boxes2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.main4{
+    background-color: rgb(248, 246, 246);
+}
+
+
+.events{
+    color:#316DC3 ; 
+    margin-left: 150px;
+    
+}
+.upcoming{
+    float: right;
+    margin-right: 200px;
+    margin-top: -60px;
+}
+
+#eve{
+    
+    border-color: green;
+    width: 50px;
+    margin-right: 265px;
+}
+
+#fullpara{
+    color: black;
+    font-size: 12px;
+    opacity: 0.7;
+    text-align: justify;
+}
+
+.mini{
+    width: 250px;
+    height: 200px;
+}
+
+#event{
+    border-color: green;
+    width: 50px;
+    margin-left: 150px;
+}
+
+.hh{
+    height: 90px;
+    display: flex;
+    width: 330px;
+    margin-left: 150px;
+    background-color: rgb(248, 246, 246);
+    
+}
+
+h4{
+    color:#316DC3 ;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+#hhs{
+    width: 25px;
+    height: 30px;
+    
+}
+
+.mission{
+    display: flex;
+    
+}
+
+
+#image{
+    color: #316DC3;
+    font-size: 45px;
+}
+
+#gallery{
+    color: green;
+    font-size: 45px;
+}
+
+
+.ig{
+    display: flex;
+    justify-content: center;
+}
+
+#saylani{
+    width: 200px;
+}
+
+.images{
+    margin-left: 200px;
+}
+
+.main6{
+    margin-top: 100px;
+}
+
+.end{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(59, 59, 59);
+    flex-wrap: wrap;
+
+}
+
+#call{
+    margin-left: 100px;
+    font-size: 17px;
+    color: white;
+    opacity: 0.7;
+    font-family: monospace;
+}
+
+
+
+.phone{
+
+    margin-top: 70px;
+    width: 400px;
+    height: 200px;
+}
+
+.phonecalls{
+    margin-right: 150px;
+    margin-top: 70px;
+    width: 400px;
+    height: 300px;
+   
+}
+
+
+
+#use{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin-top: -20px;
+}
+
+#hrgreen{
+    height: 1px;
+    width: 45px;
+    border-color: green;
+    margin-right:450px;
+}
+
+#connect{
+    margin-top: -20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+
+}
+
+style{
+    width: 20px;
+}
+
+.end2{
+    margin-top: -17px;
+    background-color: rgb(70, 135, 226);
+    height: 40px;
+}
+
+#copyright{
+    color: white;
+    margin-left: 150px;
+    line-height: 1cm;
+}
+
+
+
+
+
+
+
+
